@@ -4,10 +4,36 @@
   <artifactId>karshika</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
+  
   	<dependency>
   		<groupId>com.luminar</groupId>
   		<artifactId>datadriven</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
+  	
+  	  <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.31.0</version>
+</dependency>
+  
+  <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.11.0</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.4.1</version>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.4.1</version>
+</dependency>
   </dependencies>
 </project>
